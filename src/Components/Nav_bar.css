@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#mainDiv {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+#leftNav,
+#rightNav {
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#leftNav li:first-child {
+    padding-left: 50px;
+}
+
+#mainDiv li {
+    padding: 20px;
+}
+
+#rightNav li:last-child {
+    padding-right: 70px;
+}
+
+#mainDiv li:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.home {
+    margin-left: 30px;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+.footer {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+    padding: 50px 50px 20px;
+    margin-top: 70px;
+}
+
+.footer p {
+    padding: 0px 150px;
+}
+
+.compo p,
+.contact p,
+.updates p,
+.more p {
+    font-size: 22px;
+    padding: 30px 50px;
+    text-align: center;
+}
