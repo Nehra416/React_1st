@@ -7,10 +7,10 @@ export const Nav_bar = () => {
             <div>
                 <ul id='leftNav'>
                     <li><Link to="/">Home</Link></li>
-                    <li><a href="/About">About</a></li>
-                    <li><a href="/Contact">Contact</a></li>
-                    <li><a href="/Updates">Updates</a></li>
-                    <li><a href="/More">More info</a></li>
+                    <li><Link to="/About">About</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
+                    <li><Link to="/Updates">Updates</Link></li>
+                    <li><Link to="/More">More info</Link></li>
                 </ul>
             </div>
             <div>
