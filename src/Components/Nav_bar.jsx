@@ -1,16 +1,16 @@
-import React from 'react'
-import "./Nav_bar.css"
-import {Link} from "react-router-dom"
+import React from 'react';
+import "./Nav_bar.css";
+import { Link } from "react-router-dom";
+
 export const Nav_bar = () => {
     return (
         <div id='mainDiv'>
             <div>
                 <ul id='leftNav'>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/About">About</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
-                    <li><Link to="/Updates">Updates</Link></li>
-                    <li><Link to="/More">More info</Link></li>
+                    <li><Link to="/base">Base</Link></li>
+                    <li><Link to="/props">Props</Link></li>
+                    <li><Link to="/multiple">Multiple</Link></li>
                 </ul>
             </div>
             <div>
@@ -20,5 +20,5 @@ export const Nav_bar = () => {
                 </ul>
             </div>
         </div>
-    )
-}
+    );
+};
